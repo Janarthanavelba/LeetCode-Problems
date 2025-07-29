@@ -5,13 +5,15 @@ class Solution {
 
         
 
-        List<Integer>list=new ArrayList<>();
+        // List<Integer>list=new ArrayList<>();
 
-        for(int a:nums) list.add(a);
+        // for(int a:nums) list.add(a);
 
-        Collections.sort(list);
+        // Collections.sort(list);
 
-        return list.get(list.size()-k);
+        Arrays.sort(nums);
+
+        return nums[nums.length-k];
         
     }
 }
